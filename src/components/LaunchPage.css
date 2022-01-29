@@ -1,0 +1,85 @@
+.container {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+   }
+  
+  .innerContainer {
+    width: 80%;
+    height: 100px;
+    position: absolute;
+ 
+    left: 10%;
+    top: 10%;
+  
+  
+    font-size: 22px;
+  }
+  
+  .content_hide {
+    visibility: hidden;
+  }
+  
+  .content_visible {
+    visibility: visible;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: auto;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    justify-items: baseline;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    animation: glowing 1500ms infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 10px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 50px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 10px #2ba805;
+    }
+  }
+  
+  .my-custom-class {
+    font-size: 35px;
+   font-weight: 800;
+   font-family: 'Righteous', cursive;
+   letter-spacing: 10px;
+  }
+  
+  .my-custom-class-two {
+      font-size: 34px;
+     font-weight: 800;
+     color: yellow;
+     font-family: 'Satisfy', cursive;
+    }
+    .my-custom-class-three {
+      font-size: 26px;
+      font-family: 'Niconne', cursive;
+    }
+
+    .my-custom-class-four{
+      font-family: 'Righteous', cursive;
+    }
